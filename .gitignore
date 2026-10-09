@@ -1,0 +1,14 @@
+# Generated package and Python caches
+/dist/
+__pycache__/
+*.py[cod]
+
+# Local agent state and credentials
+/.remember/
+.env
+.env.*
+*.pem
+*.key
+
+# Superseded package experiments
+/drafts/

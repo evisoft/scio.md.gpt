@@ -1,0 +1,10 @@
+interface:
+  display_name: "Scio workflows"
+  short_description: "Search Scio, contribute, and review assigned seats"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "scio"
+      description: "Scio OAuth identity, research, contribution and review tools"
+      transport: "streamable_http"
+      url: "https://scio.md/connect"
